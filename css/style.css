@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500&display=swap");
+:root,
+[data-bs-theme="light"] {
+  --bs-primary: #108a00;
+  --bs-primary-rgb: 20, 168, 0;
+  --bs-blue: #1f57c3;
+  --bs-dark: #13544e;
+  --bs-red: #bc511b;
+  --bs-secondary: #001e00;
+  --bs-secondary-rgb: 0, 30, 0;
+}
+.heading {
+  font-family: "Noto Serif", serif;
+}
+.my-primary {
+  background-color: var(--bs-primary) !important;
+}
+.container {
+  max-width: 92% !important;
+}
+@media only screen and (max-width: 1023px) {
+  .container {
+    max-width: 95% !important;
+  }
+  .hero-text {
+    font-size: 40px !important;
+  }
+  .talent-btn h2 {
+    font-size: 25px;
+  }
+  .talent-btn span {
+    font-size: 18px;
+  }
+}
+/*---------------------------scroll bar style---------------------------*/
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #d4deec;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--bs-primary);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--bs-secondary);
+}
+.logo {
+  width: 100px !important;
+}
+/*-----------------------------------------------------*/
+.search-form span {
+  margin: auto;
+  width: 350px;
+  max-width: 100%;
+}
+
+.search-form span input {
+  padding: 5px 30px;
+}
+.search-form span i {
+  top: 10px;
+  left: 0px;
+  width: 20px;
+}
+footer li {
+  margin-bottom: 7px;
+}
+footer li a:hover {
+  text-decoration: underline !important;
+}
+@media only screen and (max-width: 768px) {
+  .category {
+    height: 100px !important;
+  }
+  .grid-order-first,
+  .sidebar {
+    order: -1;
+  }
+  .skills-heading {
+    overflow-x: auto;
+  }
+  .skills-heading div {
+    width: 150%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .skills-heading h2 {
+    font-size: 25px !important;
+  }
+}
+.category:hover {
+  background-color: #e9e9e9 !important;
+}
+.talent-btn:hover {
+  background-color: white !important;
+  color: var(--bs-primary) !important;
+}
+.skills-heading h2 {
+  color: lightgray;
+  font-size: 35px;
+}
+.skills-heading h2:hover {
+  color: var(--bs-primary);
+  cursor: pointer;
+}
+.skills-heading .active {
+  color: var(--bs-primary) !important;
+}
+.content .row a {
+  text-decoration: none;
+  color: darkgray;
+}
+.content .row a:hover {
+  color: var(--bs-primary);
+  cursor: pointer;
+  line-height: 1.8em;
+}
+.job .description p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.job:hover {
+  background-color: rgb(243, 243, 243);
+  cursor: pointer;
+}
