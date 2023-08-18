@@ -46,7 +46,7 @@ $(function () {
         setCookie("userID", userLogin.id, 7);
         setCookie("email", userLogin.email, 7);
         setCookie("password", userLogin.password, 7);
-        location.href = "/find-work.html";
+        location.href = "find-work.html";
       } else {
         const alertText = `<div class="alert alert-warning alert-dismissible fade" role="alert">
         <strong>Oops! </strong> Email or Password is not correct!

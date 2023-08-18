@@ -194,7 +194,7 @@ $(function () {
       setCookie("userID", newUser.id, 7);
       setCookie("email", newUser.email, 7);
       setCookie("password", newUser.password, 7);
-      location.href = "/find-work.html";
+      location.href = "find-work.html";
     } else {
       $("input:not('.is-valid')")
         .addClass("is-invalid")

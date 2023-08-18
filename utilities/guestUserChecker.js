@@ -19,5 +19,5 @@ if (
   cookieUser.email === currentUser.email &&
   cookieUser.password === currentUser.password
 ) {
-  window.location.href = "/find-work.html";
+  window.location.href = "find-work.html";
 }
